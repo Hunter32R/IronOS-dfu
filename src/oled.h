@@ -8,9 +8,9 @@
 
 #if MODEL_S60 || MODEL_S60P || MODEL_S99 || MODEL_TS101
 #define OLED_AREA_X      16
-#define OLED_AREA_Y      0
+#define OLED_AREA_Y      8
 #define OLED_WIDTH       128
-#define OLED_HEIGHT      32
+#define OLED_HEIGHT      64
 #define OLED_GRAM_START  0x00
 #define OLED_GRAM_END    0x7F
 #define OLED_VCOM_LAYOUT 0x12
