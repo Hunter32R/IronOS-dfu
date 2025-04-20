@@ -13,10 +13,10 @@
 #define OLED_HEIGHT      32
 #define OLED_GRAM_START  0x00
 #define OLED_GRAM_END    0x7F
-#define OLED_VCOM_LAYOUT 0x02
+#define OLED_VCOM_LAYOUT 0x12
 
 #ifdef OLED_FLIP_BUFFER
-#define OLED_SEGMENT_MAP 0xA0
+#define OLED_SEGMENT_MAP 0xA1
 #else
 #define OLED_SEGMENT_MAP 0xA1
 #endif
