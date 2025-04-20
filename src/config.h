@@ -23,6 +23,8 @@
 #elif MODEL_TS101
 #define GPIO_DFU_BOOT_PORT            GPIOB
 #define GPIO_DFU_BOOT_PIN             4
+#define GPIO_DP_PULLUP_PORT           GPIOA
+#define GPIO_DP_PULLUP_PIN            12
 //#define OLED_RESET_Pin                7
 //#define OLED_RESET_GPIO_Port          GPIOA
 #define FLASH_SIZE_KB                 128
